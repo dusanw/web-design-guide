@@ -1,0 +1,107 @@
+body {
+    margin: 0px auto;
+    padding: 10px;
+    box-sizing: border-box;
+    max-width: 1050px;
+    color: #341C09;
+    background-color: whitesmoke;
+    text-align: center;
+}
+
+h1 {
+    font-family: 'rubik moonrocks';
+    font-size: 50px;
+    color: #236AB9;
+}
+
+h2 {
+    font-family: arima;
+    font-size: 40px;
+    color: #236AB9;
+}
+
+h3 {
+    text-decoration: underline;
+    font-size: 30px;
+}
+
+section {
+    border: 1px solid gray;
+}
+
+.header {
+    background-color: #FC7307;
+    background-size: cover;
+}
+
+.colors {
+    height: fit-content;
+    padding: 20px;
+    background-color: #D4E4F7;
+}
+
+.color-picker {
+    display: inline-block;
+    overflow: auto;
+    height: 100px;
+    width: 100px;
+    color: beige;
+    align-items: center;
+    border: 1px solid #341C09;
+}
+
+#lightblue {
+    background-color: #D4E4F7;
+}
+
+#darkblue {
+    background-color: #236AB9;
+}
+
+#orange {
+    background-color: #FC7307;
+}
+
+#darkorange {
+    background-color: #B85B14;
+}
+
+#lightblack {
+    background-color: #341C09;
+}
+
+.fonts {
+    height: fit-content;
+    background-color: #B85B14;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.italic {
+    font-style: italic;
+}
+
+.rubik-moonrocks {
+    font-family: 'rubik moonrocks';
+}
+
+.arima {
+    font-family: arima;
+}
+
+.great-vibes {
+    font-family: 'great vibes';
+}
+
+.text-styles {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 20px;
+    background-color: #B85B14;
+    text-align: left;
+    font-family: 'great vibes';
+    justify-content: space-evenly;
+}
